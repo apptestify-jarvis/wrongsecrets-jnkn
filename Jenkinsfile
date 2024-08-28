@@ -4,7 +4,7 @@ pipeline{
     stage('Bomanai'){
       steps{
          sh 'pip install --no-cache-dir --upgrade boman-cli'
-         sh '~/.local/bin/boman-cli -a run -cicd jenkins'
+         sh '~/.local/bin/boman-cli -a run -cicd jenkins -u https://qa.boman.ai'
       }
     }
   }
