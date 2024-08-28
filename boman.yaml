@@ -3,5 +3,5 @@ Auth:
   customer_token: 2e7af684-e845-471c-b877-5ea3ffab4e2e
 SAST:
   language: semgrep
-SCA:
-  language: java
+#SCA:
+  #language: java
